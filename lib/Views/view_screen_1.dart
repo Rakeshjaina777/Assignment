@@ -76,7 +76,7 @@ class View1 extends StatelessWidget {
                   ),
                   SizedBox(height: 4), // Add spacing between heading and text
                   Text(
-                    item.openState.body.subtitle ?? 'No Subtitl',
+                    item.openState.body.subtitle ?? 'No Subtit',
 
                     // subtitle.isNotEmpty ? subtitle  : "Move the dial and set any amount you need upto ₹50L" ,
                     style: TextStyle(
