@@ -50,7 +50,7 @@ class View1 extends StatelessWidget {
 
           // Background widget
           Positioned(
-            top: 49,
+            top: 52,
             left: 19,
             child: Container(
               padding: const EdgeInsets.all(9), // Add padding to the container
@@ -70,11 +70,11 @@ class View1 extends StatelessWidget {
                     // title.isNotEmpty ? title  : "Nikunj how much do you need?" ,
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 16,
+                      fontSize: 18,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  SizedBox(height: 4), // Add spacing between heading and text
+                  SizedBox(height: 5), // Add spacing between heading and text
                   Text(
                     item.openState.body.subtitle ?? 'No Subtit',
 
